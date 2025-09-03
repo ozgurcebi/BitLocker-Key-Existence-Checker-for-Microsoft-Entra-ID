@@ -66,7 +66,9 @@ Device.Read.All (Application)
 PowerShell Modules
 
 Microsoft.Graph.Authentication
+
 Microsoft.Graph.Identity.SignIns
+
 Microsoft.Graph.Identity.DirectoryManagement
 
 Note: Script will automatically install missing modules
