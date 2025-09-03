@@ -3,6 +3,7 @@ A PowerShell script that provides compliance-safe visibility into BitLocker reco
 This script helps organizations audit and verify that BitLocker recovery keys are properly escrowed to Microsoft Entra ID without exposing sensitive cryptographic information. It answers the critical question: "Which devices have BitLocker keys safely stored in the cloud?"
 
 🔒 Compliance & Security
+
 ✅ Fully Compliant Design
 
 READ-ONLY operations - Never modifies or regenerates keys
@@ -177,21 +178,31 @@ Many "Unknown" devices: Check Device.Read.All permission
 Authentication errors: Verify app registration and client secret
 
 📝 License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
+
 🤝 Contributing
+
 Contributions are welcome! Please feel free to submit a Pull Request.
+
 Areas for Enhancement
 
 Additional device matching algorithms
+
 Export format options (Excel, JSON)
+
 Integration with compliance frameworks
+
 Automated reporting schedules
 
 📞 Support
+
 For issues or questions:
 
 Check existing Issues
+
 Create a new issue with detailed information
+
 Include sanitized error messages (remove sensitive data)
 
 🏷️ Version History
